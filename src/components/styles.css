@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+.quote-box {
+  border-radius: 0.3vh;
+  position: relative;
+  margin:auto auto auto auto;
+  width: 46.4vh;
+  padding: 4vh 5vh;
+  display: table;
+  background-color: white;
+}
+.body {
+  background-color:#87edff;
+  color: black;
+  font-family: 'Pangolin', cursive;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97.8vh;
+}
+
+h1 {
+  position: absolute;
+  top: 20vh;
+  font-family: Pangolin;
+  
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    top: 15vh;
+    left: 6vh;
+  }
+
+}
+.quote-text {
+ 
+  text-align: center;
+  width: 46.4vh;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;  
+}
+i {
+  font-size: 2em;
+  margin-right: 0.4em;
+}
+.quote-author {
+  width: 46.4vh;
+  height: auto;
+  clear: both;
+  padding-top: 2.07vh;
+  font-size: 1em;
+  text-align: right;
+  font-size: 1.8vh;
+}
+.buttons {
+  width: 46.4vh;
+  margin: auto;
+  display: block;
+}
+.button {
+  height: 6.5vh;
+  width: 8vh;
+  border: none;
+  border-radius: 0.3vh;
+  color: black;
+  background-color: #03d9ff;
+  outline: none;
+  font-size: 0.85em;
+  padding: 0.8vh 1.86vh 0.8vh 1.86vh;
+  margin-top: 3.1vh;
+  opacity: 1;
+  cursor: pointer;
+ 
+}
+button:hover {
+  opacity: 0.9;
+}
+.tweet-button{
+  height: 3.9vh;
+  border: none;
+  border-radius: 0.3vh;
+  outline: none;
+  font-size: 0.85em;
+  padding: 0.8vh 1.86vh 0.6vh 1.86vh;
+  margin-top: 3.1vh;
+  opacity: 1;
+  cursor: pointer;
+  background-color: white;
+}
+#tweet-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 0.8vh;
+  text-align: center;
+  font-size: 1.8em;
+  margin-right: 0.6vh;
+  height: 3.1vh;
+  width: 4.13vh;
+  color: rgb(2, 161, 235)
+
+}
+#new-quote {
+  float: right;
+  font-size: 1.8vh;
+  text-align: center;
+  font-family: Pangolin;
+  color: black;
+}
